@@ -6,6 +6,8 @@
         "blueb"
     ],
     "pkgs": [
+        "aspnetcore-runtime",
+        "dotnet-runtime",
         "dotnet-sdk"
     ]
 }
