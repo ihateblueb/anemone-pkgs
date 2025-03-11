@@ -1,5 +1,6 @@
 {
     "id": "ANE0F7FC6D16F08B0",
+    "type": "repo",
     "name": "anemone-pkgs",
     "maintainer": [
         "blueb"
