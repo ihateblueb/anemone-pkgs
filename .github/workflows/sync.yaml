@@ -7,6 +7,7 @@ on:
 jobs:
   syncManifests:
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'github-actions[bot]' }}
     permissions:
       contents: write
     steps:
@@ -27,4 +28,9 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "sync manifests"
-          git push
+      - name: Push
+        if: steps.verify_diff.outputs.changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.ACTIONS_PAT }}
+          branch: ${{ github.ref }}
