@@ -1,8 +1,10 @@
 {
     "id": "ANE0F7FC6D16F08B0",
     "name": "anemone-pkgs",
-    "maintainer": ["blueb"],
+    "maintainer": [
+        "blueb"
+    ],
     "pkgs": [
-        "dotnet"
+        "dotnet-sdk"
     ]
-  }
+}
