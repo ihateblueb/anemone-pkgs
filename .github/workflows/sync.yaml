@@ -23,4 +23,4 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "sync manifests"
-          git push
+          git push https://${{ secrets.ACTIONS_PAT }}@github.com/ihateblueb/anemone-pkgs.git
