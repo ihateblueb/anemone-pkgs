@@ -7,9 +7,13 @@ on:
 jobs:
   syncManifests:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repo content
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.ACTIONS_PAT }}
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -23,4 +27,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "sync manifests"
-          git push https://x-access-token:${{ secrets.ACTIONS_PAT }}@github.com/ihateblueb/anemone-pkgs.git
+          git push
