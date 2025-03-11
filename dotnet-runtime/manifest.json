@@ -1,0 +1,11 @@
+{
+    "id": "ANE05251575D3AB20",
+    "type": "pkg",
+    "name": "dotnet-runtime",
+    "desc": "Runtime for the .NET framework",
+    "author": ["Microsoft"],
+    "tags": [
+      "dotnet",
+      "runtime"
+    ]
+}

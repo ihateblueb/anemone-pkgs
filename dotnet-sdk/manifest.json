@@ -2,7 +2,7 @@
     "id": "ANE02BF6650A8D2D0",
     "type": "pkg",
     "name": "dotnet-sdk",
-    "desc": ".NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.",
+    "desc": "SDK for the .NET framework",
     "author": ["Microsoft"],
     "tags": [
       "dotnet",

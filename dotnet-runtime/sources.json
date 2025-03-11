@@ -1,0 +1,12 @@
+{
+    "9.0.2": {
+        "type": "stable",    
+    
+        "osx-x64": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-osx-x64.tar.gz",
+        "osx-arm64": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-osx-arm64.tar.gz",
+  
+        "linux-arm32": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-linux-arm.tar.gz",
+        "linux-arm64": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-linux-arm64.tar.gz",
+        "linux-x64": "https://builds.dotnet.microsoft.com/dotnet/Runtime/9.0.2/dotnet-runtime-9.0.2-linux-x64.tar.gz"
+    }
+}

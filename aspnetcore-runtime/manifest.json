@@ -1,0 +1,12 @@
+{
+    "id": "ANE05BB37932A90E0",
+    "type": "pkg",
+    "name": "aspnetcore-runtime",
+    "desc": "Runtime for ASP.NET",
+    "author": ["Microsoft"],
+    "tags": [
+      "dotnet",
+      "aspnet",
+      "runtime"
+    ]
+}
