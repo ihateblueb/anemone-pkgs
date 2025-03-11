@@ -14,9 +14,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: 3.8
-      - name: Execute /.meta/sync.py
+      - name: Execute .meta/sync.py
         run: |
-          python /.meta/sync.py
+          python .meta/sync.py
       - name: Push changes
         run: |
           git config user.name github-actions
