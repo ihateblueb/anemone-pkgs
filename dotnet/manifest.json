@@ -1,0 +1,14 @@
+{
+    "id": "ANE02BF6650A8D2D0",
+    "name": "dotnet",
+    "author": ["Microsoft"],
+    "tags": [
+      "sdk"
+    ],
+    "postinstall": {
+        "*": "./scripts/postinstall.sh"
+    },
+    "uninstall": {
+        "*": "./scripts/uninstall.sh"
+    }
+  }

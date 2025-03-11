@@ -1,0 +1,10 @@
+{
+    "9.0.2": {        
+        "osx-x64": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.200/dotnet-sdk-9.0.200-osx-x64.tar.gz",
+        "osx-arm64": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.200/dotnet-sdk-9.0.200-osx-arm64.tar.gz",
+  
+        "linux-arm32": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.200/dotnet-sdk-9.0.200-linux-arm.tar.gz",
+        "linux-arm64": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.200/dotnet-sdk-9.0.200-linux-arm64.tar.gz",
+        "linux-x64": "https://builds.dotnet.microsoft.com/dotnet/Sdk/9.0.200/dotnet-sdk-9.0.200-linux-x64.tar.gz"
+    }
+  }
