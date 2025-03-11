@@ -23,4 +23,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "sync manifests"
-          git push https://${{ secrets.ACTIONS_PAT }}@github.com/ihateblueb/anemone-pkgs.git
+          git push https://${{ secrets.ACTIONS_PAT }}:x-oauth-basic@github.com/ihateblueb/anemone-pkgs.git
