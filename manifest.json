@@ -9,5 +9,8 @@
         "aspnetcore-runtime",
         "dotnet-runtime",
         "dotnet-sdk"
+    ],
+    "groups": [
+        "dotnet"
     ]
 }
