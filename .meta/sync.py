@@ -25,7 +25,7 @@ for entry in dir_entries:
         entry_m_j = json.load(entry_m)
         if entry_m_j['type'] == "group":
             print(f"group {entry_m_j['name']} found")
-            grp_readme_addition += f"### {entry_m_j['name']}\n{entry_m_j['desc']}\npackages: {comma_seperated_string_from_array(entry_m_j['pkgs'])}\n\n"
+            grp_readme_addition += f"### {entry_m_j['name']}\n{entry_m_j['desc']}\n\npackages: {comma_seperated_string_from_array(entry_m_j['pkgs'])}\n\n"
             grp_dirs.append(entry.name)
         if entry_m_j['type'] == "pkg":
             print(f"package {entry_m_j['name']} found")
