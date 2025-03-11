@@ -19,8 +19,8 @@ jobs:
           python .meta/sync.py
       - name: Push changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add .
           git commit -m "sync manifests"
           git push https://${{ secrets.ACTIONS_PAT }}@github.com/ihateblueb/anemone-pkgs.git
