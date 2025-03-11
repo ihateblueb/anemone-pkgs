@@ -31,6 +31,7 @@ for entry in dir_entries:
             print(f"package {entry_m_j['name']} found")
             pkg_readme_addition += f"### {entry_m_j['name']}\n{entry_m_j['desc']}\n\n"
             pkg_dirs.append(entry.name)
+        else: continue
 
 print(f"total of {len(pkg_dirs)} pkgs found")
 print(f"total of {len(grp_dirs)} groups found")

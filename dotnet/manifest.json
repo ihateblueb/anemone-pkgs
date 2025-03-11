@@ -1,6 +1,7 @@
 {
     "id": "ANE0438BAC5B2DF70",
     "type": "group",
+    "name": "dotnet",
     "desc": ".NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.",
     "pkgs": [
         "dotnet-runtime",
