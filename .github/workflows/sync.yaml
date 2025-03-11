@@ -1,20 +1,27 @@
-name: Sync 
+name: Sync manifests
 
 on:
-  push: ["main"]
+  push:
+    branches: [ main ]
 
 jobs:
-  build:
+  syncManifests:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Setup Python
-        uses: actions/setup-python@v2
+      - name: checkout repo content
+        uses: actions/checkout@v3
+      - name: setup python
+        uses: actions/setup-python@v4
         with:
           python-version: 3.8
       - name: Install dependencies
-      - name: Execute sync.py script
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Execute .meta/sync.py
         run: |
           python .meta/sync.py
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Sync manifests"
+          git push
