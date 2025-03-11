@@ -4,6 +4,12 @@ default package source for anemone
 
 ## packages
 
+### aspnetcore-runtime
+Runtime for ASP.NET
+
+### dotnet-runtime
+Runtime for the .NET framework
+
 ### dotnet-sdk
-.NET is the free, open-source, cross-platform framework for building modern apps and powerful cloud services.
+SDK for the .NET framework
 
