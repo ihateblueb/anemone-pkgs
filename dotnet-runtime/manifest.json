@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/manifest.schema.json",
     "id": "ANE05251575D3AB20",
     "type": "pkg",
     "name": "dotnet-runtime",

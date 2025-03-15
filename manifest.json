@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/manifest.schema.json",
     "id": "ANE0F7FC6D16F08B0",
     "type": "repo",
     "name": "anemone-pkgs",

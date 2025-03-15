@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/manifest.schema.json",
     "id": "ANE05BB37932A90E0",
     "type": "pkg",
     "name": "aspnetcore-runtime",

@@ -1,4 +1,6 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/config.schema.json",
+    
     "9.0.2": {
         "type": "stable",    
     

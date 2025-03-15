@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/manifest.schema.json",
     "id": "ANE0438BAC5B2DF70",
     "type": "group",
     "name": "dotnet",

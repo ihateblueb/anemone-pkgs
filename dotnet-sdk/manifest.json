@@ -1,4 +1,5 @@
 {
+    "$schema": "https://anemone.remlit.site/Schemas/manifest.schema.json",
     "id": "ANE02BF6650A8D2D0",
     "type": "pkg",
     "name": "dotnet-sdk",
